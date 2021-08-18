@@ -1,7 +1,7 @@
+
 # 🎯微软CRX下载器（Microsoft CRX Downloader）
 * 本脚本能使非Edge浏览器也能从微软扩展商店下载crx扩展文件
 * 本脚本参考了扩展Download Edge Store Add-ons 1.0版本(ID：nkhiapoelieglolbaffohdchninbfenn)
-* 
 
 # 📖使用流程
 1、打开微软扩展商店(https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)
@@ -28,3 +28,6 @@
 * Greasyfork:https://greasyfork.org/zh-CN/scripts/430849/
 * Github仓库:https://github.com/IcedWatermelonJuice/MSCRXDownloader
 * Gitee 仓库:https://gitee.com/gem_xl/MSCRXDownloader
+
+![mobile](https://user-images.githubusercontent.com/87429695/129848032-2d4489de-d830-4f5c-b9ee-932d0c69099a.png)
+![pc](https://user-images.githubusercontent.com/87429695/129848038-8f4c7109-db79-4456-adf5-6909f89f695a.png)

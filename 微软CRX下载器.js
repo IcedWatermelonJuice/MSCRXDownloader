@@ -5,7 +5,7 @@
 // @description  使非Edge浏览器，也能从微软扩展商店下载CRX文件
 // @author       那年那tu那些事
 // @match        *://microsoftedge.microsoft.com/addons/*
-// @icon         https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true
+// @icon         https://i.loli.net/2021/08/18/mMtybsTwCBkFPW5.png
 // ==/UserScript==
 
 (function() {

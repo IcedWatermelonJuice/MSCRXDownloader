@@ -1,9 +1,10 @@
 # 🎯微软CRX下载器（Microsoft CRX Downloader）
-* 使非Edge浏览器也能从微软扩展商店(https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)下载crx扩展文件
-* 本脚本参考了扩展Download Edge Store Add-ons 1.0版本（ID：nkhiapoelieglolbaffohdchninbfenn）
+* 本脚本能使非Edge浏览器也能从微软扩展商店下载crx扩展文件
+* 本脚本参考了扩展Download Edge Store Add-ons 1.0版本(ID：nkhiapoelieglolbaffohdchninbfenn)
+* 
 
 # 📖使用流程
-1、打开微软扩展商店（https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home）
+1、打开微软扩展商店(https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)
 
 2、找到需要下载的扩展，直接点击“下载CRX”图标或点击进入扩展详情页面后再点击“下载CRX”图标
 

@@ -25,7 +25,7 @@
 * 酷安：那年那兔那些事
 
 # 🌎相关地址
-* Greasyfork:https://greasyfork.org/zh-CN/scripts/430849/
+* Greasyfork:https://greasyfork.org/zh-CN/scripts/430849
 * Github仓库:https://github.com/IcedWatermelonJuice/MSCRXDownloader
 * Gitee 仓库:https://gitee.com/gem_xl/MSCRXDownloader
 

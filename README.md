@@ -30,4 +30,6 @@
 * Gitee 仓库:https://gitee.com/gem_xl/MSCRXDownloader
 
 ![mobile](https://user-images.githubusercontent.com/87429695/129848032-2d4489de-d830-4f5c-b9ee-932d0c69099a.png)
+![mobile2](https://user-images.githubusercontent.com/87429695/129849194-303853cf-ee73-4696-bb3f-3e323b831a0c.png)
 ![pc](https://user-images.githubusercontent.com/87429695/129848038-8f4c7109-db79-4456-adf5-6909f89f695a.png)
+![pc2](https://user-images.githubusercontent.com/87429695/129849207-1a11d60c-570c-4a58-bbd7-5f04d137089b.png)

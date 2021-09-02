@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         微软CRX下载器
 // @namespace    http://tampermonkey.net/
-// @version      0.13
+// @version      0.14
 // @description  使非Edge浏览器，也能从微软扩展商店下载CRX文件
 // @author       那年那tu那些事
 // @include      *://microsoftedge.microsoft.com/addons/*
@@ -25,14 +25,20 @@
 			"https://edge.microsoft.com/extensionwebstorebase/v1/crx?response=redirect&acceptformat=crx3&x=id%3D" +
 			crxid + "%26installsource%3Dondemand%26uc";
 		//替换内容、样式、功能
-		buttonOBJtextClass=buttonOBJ.children[0].className;
-		buttonOBJ.style = "min-width: 100px !important;opacity:1;z-index: 9999;cursor:pointer !important;margin-inline-end: 8px;";
+		var buttonOBJtextClass=buttonOBJ.children[0].className;
+		buttonOBJ.style = "min-width: 100px !important;opacity:1;z-index: 999;cursor:pointer !important;margin-inline-end: 8px;background:#1683D8;";
 		buttonOBJ.innerHTML = "<a class="+buttonOBJtextClass+" href=" + downloaderURL +
 			" target='_blank' style='color: white;text-decoration:none;width:100%'><b>下载 CRX</b></a>";
 		//解除button的禁用
 		buttonOBJ.disabled = false;
 		//被替换图标加上name属性,防止一直被遍历赋值
 		buttonOBJ.name = "ISnewButton";
+        buttonOBJ.onmouseover = function(){
+            buttonOBJ.style.background="#006CBE";
+        }
+        buttonOBJ.onmouseleave = function(){
+            buttonOBJ.style.background="#1683D8";
+        }
 		//detail页专属设置
 		if (checkURL() === "detail") {
 			//图标宽度设置
@@ -67,6 +73,9 @@
 	}
 	//CRXdownloaderMain方法为脚本入口main
 	function CRXdownloaderMain() {
+        if(document.getElementById("headerArea")!==null){
+            document.getElementById("headerArea").style.zIndex="1000";
+        }
 		//设置定时器,单位ms
 		var crxdownloaderSetTimer = 100;
 		//启动定时器

@@ -6,7 +6,7 @@
 # 📖使用流程
 1、打开微软扩展商店(https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)
 
-2、找到需要下载的扩展，直接点击“下载CRX”图标或点击进入扩展详情页面后再点击“下载CRX”图标
+2、找到需要下载的扩展，直接点击“下载CRX”图标或点击进入扩展详情页面后再点击“下载CRX”图标 
 
 # 💊问题解答
 * Q1:没有出现“下载CRX”图标

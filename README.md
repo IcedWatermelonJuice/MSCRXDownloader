@@ -33,6 +33,9 @@
 * Github仓库:https://github.com/IcedWatermelonJuice/MSCRXDownloader
 * Gitee 仓库:https://gitee.com/gem_xl/MSCRXDownloader
 
+# 🔍参考截图
+* 从左往右(从上往下)依次为:移动端主页、移动端详情页、PC端主页、PC端详情页
+
 ![mobile](https://user-images.githubusercontent.com/87429695/129848032-2d4489de-d830-4f5c-b9ee-932d0c69099a.png)
 ![mobile2](https://user-images.githubusercontent.com/87429695/129849194-303853cf-ee73-4696-bb3f-3e323b831a0c.png)
 ![pc](https://user-images.githubusercontent.com/87429695/129848038-8f4c7109-db79-4456-adf5-6909f89f695a.png)

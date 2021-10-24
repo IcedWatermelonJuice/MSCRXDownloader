@@ -1,7 +1,7 @@
 
 # 🎯微软CRX下载器（MS CRX Downloader）
 * 本脚本能使非Edge浏览器也能从微软扩展商店下载crx扩展文件
-* 本脚本参考了扩展Download Edge Store Add-ons 1.0版本(ID：nkhiapoelieglolbaffohdchninbfenn)
+* 在0.15版本暂时解决了chromium内核浏览器点击“下载CRX”后无法下载的问题
 
 # 📖使用流程
 1、打开微软扩展商店(https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)
@@ -15,7 +15,7 @@
 
 * Q2:点击图标后没反应或提示“程序包无效”
 
-  A2:右键图标，复制链接到下载器下载
+  A2:在0.15版本暂时解决了这个问题。如果还是点击后无反应，那请采用备用下载方式:右键图标，复制链接到下载器下载或右键选择“链接另存为”
   
 * Q3:手机kiwi，启动脚本无法覆盖kiwi自带图标替换功能
 

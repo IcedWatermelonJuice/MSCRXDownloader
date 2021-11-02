@@ -22,11 +22,7 @@
   A3:暂时无法解决。kiwi内嵌了一个替换功能，无法关闭。
 
 # 🔔特别声明
-* 本人业余时间开发，并非专业开发者，代码质量可能不佳。如果有大佬想帮忙优化，可以联系我QwQ
-
-# 📪联系方式
-* 邮箱：gem_xl@petalmail.com
-* 酷安：那年那兔那些事
+* 本人业余时间开发，并非专业开发者，代码质量可能不佳。如果有大佬想帮忙优化，可以通过Greasyfork/Github联系我QwQ
 
 # 🌎相关地址
 * Greasyfork:https://greasyfork.org/zh-CN/scripts/430849

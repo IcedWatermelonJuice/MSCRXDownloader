@@ -31,7 +31,6 @@
 # 🌎相关地址
 * Greasyfork:https://greasyfork.org/zh-CN/scripts/430849
 * Github仓库:https://github.com/IcedWatermelonJuice/MSCRXDownloader
-* Gitee 仓库:https://gitee.com/gem_xl/MSCRXDownloader
 
 # 🔍参考截图
 * 从左往右(从上往下)依次为:移动端主页、移动端详情页、PC端主页、PC端详情页

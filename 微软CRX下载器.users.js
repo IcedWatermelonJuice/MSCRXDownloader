@@ -1,21 +1,19 @@
 // ==UserScript==
 // @name         微软CRX下载器
 // @namespace    http://tampermonkey.net/
-// @version      0.15
+// @version      0.19
 // @description  使非Edge浏览器，也能从微软扩展商店下载CRX文件
-// @author       那年那tu那些事
+// @author       tutu辣么可爱
 // @include      *://*.microsoft.com/*
 // @icon         https://i.loli.net/2021/08/18/mMtybsTwCBkFPW5.png
+// @license      MIT
 // ==/UserScript==
 (function() {
 	//获取UA类型
 	function getUA() {
-		var uaStr = "pc";
+		var uaStr = "others";
 		if (/Chrome/i.test(navigator.userAgent)) {
 			uaStr = "chromium";
-		}
-		if (/Android|webOS|iPhone|iPod|BlackBerry|HarmonyOS|Mobile/i.test(navigator.userAgent)) {
-			uaStr = "mobile";
 		}
 		return uaStr;
 	}
@@ -95,17 +93,20 @@
 	//DownloadCRXforChromium方法为chromium内核浏览器专属下载方法
 	function DownloadCRXforChromium() {
 		var url = location.href;
-		if (url.search("http://") !== -1) {
-			url = url.replace("http", "https");
-		} else if (url.search("https://") !== -1) {
-			url = "";
-		} else {
-			url = "https://" + url;
+		url=/^https:\/\//i.test(url)?true:"https://" + url.replace(/^(http:)?\/\//,"");
+		if(url===true){
+			return false;
 		}
-		if (url !== "") {
-			open(url);
+		var crxID=url.split("%3D")[1].split("%26")[0];
+		crxID=crxID?crxID:"Edge插件";
+		var btn=document.getElementsByTagName("pre")[0];
+		if(btn){
+			btn.innerHTML="若没有自动下载插件，请点击<a href='"+url+"' download='"+crxID+".crx'>这里</a>";
 		}
-		window.close();
+		var a=document.createElement("a");
+		a.href=url;
+		a.download=crxID+".crx";
+		a.click();
 	}
 	//CRXdownloaderMain方法为脚本入口main
 	function CRXdownloaderMain() {
